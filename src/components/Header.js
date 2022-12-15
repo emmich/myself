@@ -8,8 +8,8 @@ export default function Header() {
       <div className="right_header">
         <ul>
           <li className="links"><a href="#me">About</a></li>
-          <li className="links"><a href="#">Projects</a></li>
-          <li className="links"><a href="#" className="contact">Let's talk</a></li>
+          <li className="links"><a href="#works">Projects</a></li>
+          <li className="links"><a href="#contact" className="contact">Let's talk</a></li>
         </ul>
       </div>
     </div>
