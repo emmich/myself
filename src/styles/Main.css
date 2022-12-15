@@ -1,0 +1,112 @@
+main {
+    /* border: 1px solid white; */
+    height: auto;
+    margin: 100px 10px 50px;
+}
+
+/*########## Section one ###### */
+
+.section_one {
+    margin: 50px 100px 0px;
+}
+.section_one h2 {
+    font-size: 22px;
+    color: rgb(153, 149, 149);
+    font-weight: 300;
+}
+.section_one h1 {
+    text-transform: capitalize;
+    color: #00A3FF;
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.section_one h1:hover {
+    color: white;
+    transform:scale(1); 
+    transition: .5s ease-in-out;
+    
+}
+.section_one .subhead {
+    color: white;
+    width: 800px;
+    font-weight: 300;
+    word-spacing: 1.5px;
+    font-size: 22px;
+}
+.subhead span {
+    color: #00A3FF;
+    font-weight: 400;
+}
+.moresub {
+    width: auto;
+    font-weight: 300;
+    word-spacing: 1.5px;
+    font-size: 17px;
+    color: white;
+}
+.more_button {
+    border: .6px solid white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 100px;
+    text-decoration-line: none;
+    color: white;
+    word-spacing: 1.5px;
+    font-size: 17px;
+    font-weight: 300;;
+}
+.more_button:hover {
+    border: none;
+    background-color:#00A3FF;
+    color: white;
+}
+.socials {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+}
+.socials img:hover {
+    transform:scale(1.1); 
+    transition: .3s ease-in-out;
+    
+}
+
+
+
+/*########## Section two ###### */
+
+.me {
+    /* border: 1px solid white; */
+    height: 800px;
+    margin: 190px 100px 50px;
+}
+.about h1{
+    font-size: 50px;
+    color: #00A3FF; 
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.about p {
+    color: white;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 30px;
+
+}
+.others h1{
+    font-size: 50px;
+    color: #00A3FF; 
+    text-transform: capitalize;
+    font-weight: 600;
+    /* text-align: right; */
+}
+.others p {
+    color: white;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 30px;
+    /* text-align: right; */
+
+}

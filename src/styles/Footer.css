@@ -1,0 +1,22 @@
+footer {
+    border: 1px solid white;
+    height: 50px;
+}
+
+.copyright {
+    /* height: 60px; */
+    text-align: center;
+    padding: 8px 0px;
+    /* margin: auto; */
+}
+.copyright h6 {
+    color: white;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.copyright span {
+    color:  #2E97D2;
+    font-weight: 700;
+    font-size: 14px;
+}
