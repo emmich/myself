@@ -4,10 +4,102 @@ main {
     margin: 100px 10px 50px;
 }
 
+@media only screen and (max-width:375.98px) 
+{
+    main {
+        margin: 85px 10px 40px;
+    }
+}
+
 /*########## Section one ###### */
 
 .section_one {
     margin: 50px 100px 0px;
+}
+
+@media only screen and (max-width:1024.98px) 
+{
+    .section_one {
+        margin: 50px 20px;
+    }
+   
+}
+@media only screen and (max-width:425.98px) 
+{
+    .section_one {
+        margin: 50px 10px;
+    }
+
+    .section_one .animate-character {
+        font-size: 50px;
+    }
+    .section_one .subhead {
+        margin-top: 50px !important;
+    }
+    .section_one .moresub {
+        margin-top: 40px;
+    }
+    .person {
+        /* width: 200px;
+        height: 200px;
+        bottom: -55%; */
+        display: none;
+    }
+    .section_two .me {
+        margin: 150px 10px 40px;
+    }
+}
+@media only screen and (max-width:375.98px) 
+{
+    .section_one {
+        margin: 20px 5px;
+    }
+    .section_one .animate-character {
+        font-size: 50px;
+    }
+    .section_one p {
+       font-size: 20px;
+    }
+    .section_two .me {
+        margin: 130px 4px 40px;
+    }
+    .section_two .about h1, .section_two .others h1 {
+        font-size: 40px;
+    }
+    .section_three .works {
+        padding: 10px 0px 0px;
+    }
+    .section_three .works h1 {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:320.98px) 
+{
+    .section_two .about h1, .section_two .others h1 {
+        font-size: 30px;
+    }
+    .section_two .and_more h1 {
+        font-size: 30px;
+    }
+    .section_three .work_container {
+        margin-top: 40px;
+    }
+    .section_four {
+        padding: 50px 10px 20px;
+    }
+    .divide {
+        margin-top: 80px;
+    }
+    .section_five .contact h1 {
+        font-size: 30px;
+    }
+    .section_five .mail_button {
+        font-size: 14px;
+    }
+    .section_four .work_with {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
 }
 .section_one h2 {
     font-size: 20px;
@@ -21,6 +113,8 @@ main {
     font-weight: 700;
     margin-top: 15px;
 }
+
+
 /* .section_one h1:hover {
     color: white;
     transform:scale(1); 
@@ -33,6 +127,13 @@ main {
     font-weight: 300;
     word-spacing: 1.5px;
     font-size: 22px;
+}
+@media only screen and (max-width:768.98px) 
+{
+    .section_one .subhead{
+        width: auto;
+    }
+   
 }
 .subhead span {
     color: #00A3FF;
@@ -54,11 +155,11 @@ main {
     color: white;
     word-spacing: 1.5px;
     font-size: 17px;
-    font-weight: 300;;
+    font-weight: 300;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 .more_button:hover {
-    border: none;
-    background-color:#00A3FF;
+    box-shadow: inset 200px 0 0 0 #00A3FF;
     color: white;
 }
 .socials {
@@ -101,7 +202,12 @@ main {
     background-position: 200% center;
   }
 }
-
+@media only screen and (max-width:768.98px) 
+{
+    .and_more .animate-character2 {
+        font-size: 16px;
+    }
+}
 
 
 /*########## Section two ###### */
@@ -110,6 +216,12 @@ main {
     right: 5%;
     transform: rotateY(180deg);
 }
+@media only screen and (max-width:768.98px) 
+{
+    .person {
+        bottom: -45%;
+    }
+}
 
 /*########## Section two ###### */
 
@@ -117,6 +229,19 @@ main {
     /* border: 1px solid white; */
     height: auto;
     margin: 190px 100px 50px;
+}
+@media only screen and (max-width:1024.98px) 
+{
+    .me {
+        margin: 100px 20px 50px;
+    }
+   
+}
+@media only screen and (max-width:768.98px) 
+{
+    .me {
+        margin: 250px 20px 50px;
+    }
 }
 .about h1{
     font-size: 50px;
@@ -150,6 +275,12 @@ main {
 .and_more {
     text-align: center;
     margin-top: 150px;
+}
+@media only screen and (max-width:425.98px) 
+{
+    .and_more {
+        margin-top: 80px;
+    }
 }
 .and_more h1{
     font-size: 40px;
@@ -192,7 +323,7 @@ hr {
     position: relative;
     margin: 30px auto;
     margin-top: 130px;
-    animation: separator-width 10s ease-out forwards;
+    animation: separator-width 5s ease-out infinite;
 }
 
 
@@ -238,9 +369,9 @@ hr {
 /*########## Section three ###### */
 
 .works {
-    height: 700px;
+    height: auto;
     margin: 50px 10px 50px;
-    padding: 50px 0px;
+    padding: 100px 0px 40px;
     /* border: 1px solid white; */
 }
 .works h1 {
@@ -251,18 +382,115 @@ hr {
 }
 
 .work_container {
-    margin-top: 20px;
-    border: 1px solid white;
-    height: 400px;
+    margin-top: 70px;
+    /* border: 1px solid white; */
+    height: auto;
+    
+    width: 100%;
 }
 
 
 /*########## Section four ###### */
 
+
+.section_four {
+    padding: 100px 10px;
+
+   
+}
+.partners {
+    /* border: 1px solid white; */
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px 0px;
+    
+}
+.partners ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    /* animation: slide 10s linear infinite; */
+}
+@media only screen and (max-width:768.98px) 
+{
+    .partners ul{
+        width: 200%;
+    }
+}
+.primary {
+    animation: primary 15s linear infinite;
+}
+  
+.secondary {
+    animation: secondary 15s linear infinite;
+}
+
+@keyframes primary {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes secondary {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+
+.partners ul li img {
+    width: 110px;
+    padding-right: 20px;
+    filter: brightness(30%);
+    
+    /* animation: primary 3s linear infinite; */
+    
+}
+.partners ul li img:hover {
+    transition: none;
+    transform: none;
+}
+.section_four h3 {
+    text-align: center;
+    color: #00A3FF;
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+@media only screen and (max-width:425.98px) 
+{
+    .section_four {
+        padding: 100px 10px 30px;
+       
+    }
+}
+
+
+
+/*########## Section five ###### */
+
 .contact {
     margin: 50px 10px 50px;
-    padding: 50px 0px;
+    padding: 50px 0px 60px;
     text-align: center;
+}
+@media only screen and (max-width:768.98px) 
+{
+    .contact {
+        margin: 0px;
+    }
 }
 .contact h1 {
     font-size: 40px;
@@ -277,6 +505,29 @@ hr {
     font-weight: 300;
     margin-top: 20px;
 }
+@media only screen and (max-width:768.98px) 
+{
+    .contact p {
+        width: auto;
+    }
+}
 .contact p i {
     font-weight: bolder;
+}
+
+.mail_button {
+    border: .6px solid white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 100px;
+    text-decoration-line: none;
+    color: white;
+    word-spacing: 1.5px;
+    font-size: 17px;
+    font-weight: 300;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.mail_button:hover {
+    box-shadow: inset 200px 0 0 0 #00A3FF;
+    color: white;
 }

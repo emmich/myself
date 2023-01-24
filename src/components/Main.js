@@ -1,4 +1,5 @@
 import styles from '../styles/Main.css'
+import Works from '../components/Works'
 
 const Main = () => {
     return ( 
@@ -7,7 +8,7 @@ const Main = () => {
                 <div className="section_one">
                     <h2>Hello! You are here to hire</h2>
                     <h1 className="animate-character">ugo ogbonna</h1>
-                    <p className="subhead mt-3">A digital and tech-focused individual, experienced in <span><i>Frontend development and product designer, </i></span> 
+                    <p className="subhead mt-3">A digital and tech-focused individual, experienced in <span><i>Frontend Development and Product Designs, </i></span> 
                      building creative web/digital products and designs with accepted user experience concepts. </p>
                     <p className="moresub">I enjoy digging my hands in digital and tech projects, collaborating and getting exposed. I also work remotely as a digital strategist and product designer for a few team and organization</p>
                     <br /> <br />
@@ -70,6 +71,7 @@ const Main = () => {
                     <div className="works" id="works">
                         <h1>hands on</h1>
                         <div className="work_container">
+                            <Works />
 
                         </div>
                     </div>
@@ -77,10 +79,46 @@ const Main = () => {
 
                 <hr className="divide"></hr>
 
+
                 <div className="section_four">
+                    <h3 className="work_with">Worked With</h3>
+                    <div className="partners" id="">
+                        <ul className="primary">
+                            <li><img src="/assets/umdigi.png"></img></li>
+                            <li><img src="/assets/euc.png"></img></li>
+                            <li><img src="/assets/easylotto.png"></img></li>
+                            <li><img src="/assets/easysport.png"></img></li>
+                            <li><img src="/assets/wn.png"></img></li>
+                            <li><img src="/assets/isyk.png"></img></li>
+                            <li><img src="/assets/oroko.png"></img></li>
+                            <li><img src="/assets/upgradely.png"></img></li>
+                            <li><img src="/assets/zee.png"></img></li>
+  
+                        </ul>
+                        
+                        <ul className="secondary">
+                            <li><img src="/assets/umdigi.png"></img></li>
+                            <li><img src="/assets/euc.png"></img></li>
+                            <li><img src="/assets/easylotto.png"></img></li>
+                            <li><img src="/assets/easysport.png"></img></li>
+                            <li><img src="/assets/wn.png"></img></li>
+                            <li><img src="/assets/isyk.png"></img></li>
+                            <li><img src="/assets/oroko.png"></img></li>
+                            <li><img src="/assets/upgradely.png"></img></li>
+                            {/* <li><img src="/assets/zee.png"></img></li> */}
+  
+                        </ul>
+                        
+                    </div>
+                        
+                        
+                </div>
+
+                <div className="section_five">
                     <div className="contact" id="contact">
                         <h1>Let's talk!</h1>
-                        <p>I'm never tired to explore, try new projects, collaborate, offer my service, build your brand or just simply listen to you. <i>Just click that button</i></p>
+                        <p>I'm never tired to explore, try new projects, collaborate, offer my service, build your brand or just simply listen to you. <i>Just click that button</i></p><br /><br />
+                        <a href="" class="mail_button">Let's work out!</a>
                     </div>
                 </div>
             </div>
