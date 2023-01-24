@@ -22,7 +22,7 @@ const Main = () => {
                     </div>
                 </div>
 
-                <img src="/assets/person.png" width= "380px;" height="380px" alt="Linkedin"  className="person"/>
+                {/* <img src="/assets/person.png" width= "380px;" height="380px" alt="Linkedin"  className="person"/> */}
 
                 <div className="section_two">
                     <div className="me" id="me">
