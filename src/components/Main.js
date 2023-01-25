@@ -12,7 +12,7 @@ const Main = () => {
                      building creative web/digital products and designs with accepted user experience concepts. </p>
                     <p className="moresub">I enjoy digging my hands in digital and tech projects, collaborating and getting exposed. I also work remotely as a digital strategist and product designer for a few team and organization</p>
                     <br /> <br />
-                    <a href="" class="more_button">Let's work out!</a>
+                    <a href="#contact" class="more_button">Let's work out!</a>
 
                     <div className="socials">
                         <a href="https://wwww.linkedin.com/in/emmamuel67"><img src="/assets/linkedin.png" width= "20px;" height="20px" alt="Linkedin" /></a>
