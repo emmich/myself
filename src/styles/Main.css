@@ -516,6 +516,7 @@ hr {
 }
 
 .mail_button {
+    background-color: transparent;
     border: .6px solid white;
     border-radius: 5px;
     padding: 15px 30px;

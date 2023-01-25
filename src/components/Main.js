@@ -1,4 +1,4 @@
-import styles from '../styles/Main.css'
+import '../styles/Main.css'
 import Works from '../components/Works'
 
 const Main = () => {
@@ -84,29 +84,30 @@ const Main = () => {
                     <h3 className="work_with">Worked With</h3>
                     <div className="partners" id="">
                         <ul className="primary">
-                            <li><img src="/assets/umdigi.png"></img></li>
-                            <li><img src="/assets/euc.png"></img></li>
-                            <li><img src="/assets/easylotto.png"></img></li>
-                            <li><img src="/assets/easysport.png"></img></li>
-                            <li><img src="/assets/wn.png"></img></li>
-                            <li><img src="/assets/isyk.png"></img></li>
-                            <li><img src="/assets/oroko.png"></img></li>
-                            <li><img src="/assets/upgradely.png"></img></li>
-                            <li><img src="/assets/zee.png"></img></li>
+                            <li><img src="/assets/umdigi.png" alt="um"></img></li>
+                            <li><img src="/assets/euc.png" alt="euc"></img></li>
+                            <li><img src="/assets/easylotto.png" alt="easy"></img></li>
+                            <li><img src="/assets/easysport.png" alt="easy"></img></li>
+                            <li><img src="/assets/wn.png" alt="wn"></img></li>
+                            <li><img src="/assets/isyk.png" alt="isyk"></img></li>
+                            <li><img src="/assets/oroko.png" alt="oroko"></img></li>
+                            <li><img src="/assets/upgradely.png" alt="upgradely"></img></li>
+                            <li><img src="/assets/zee.png" alt="zee"></img></li>
+                            <li><img src="/assets/zelasa.png" alt="zelasa"></img></li>
   
                         </ul>
                         
                         <ul className="secondary">
-                            <li><img src="/assets/umdigi.png"></img></li>
-                            <li><img src="/assets/euc.png"></img></li>
-                            <li><img src="/assets/easylotto.png"></img></li>
-                            <li><img src="/assets/easysport.png"></img></li>
-                            <li><img src="/assets/wn.png"></img></li>
-                            <li><img src="/assets/isyk.png"></img></li>
-                            <li><img src="/assets/oroko.png"></img></li>
-                            <li><img src="/assets/upgradely.png"></img></li>
-                            {/* <li><img src="/assets/zee.png"></img></li> */}
-  
+                            <li><img src="/assets/umdigi.png" alt="um"></img></li>
+                            <li><img src="/assets/euc.png" alt="euc"></img></li>
+                            <li><img src="/assets/easylotto.png" alt="easy"></img></li>
+                            <li><img src="/assets/easysport.png" alt="easy"></img></li>
+                            <li><img src="/assets/wn.png" alt="wn"></img></li>
+                            <li><img src="/assets/isyk.png" alt="isyk"></img></li>
+                            <li><img src="/assets/oroko.png" alt="oroko"></img></li>
+                            <li><img src="/assets/upgradely.png" alt="upgradely"></img></li>
+                            <li><img src="/assets/zee.png" alt="zee"></img></li>
+                            <li><img src="/assets/zelasa.png" alt="zelasa"></img></li>
                         </ul>
                         
                     </div>
@@ -118,7 +119,7 @@ const Main = () => {
                     <div className="contact" id="contact">
                         <h1>Let's talk!</h1>
                         <p>I'm never tired to explore, try new projects, collaborate, offer my service, build your brand or just simply listen to you. <i>Just click that button</i></p><br /><br />
-                        <a href="" class="mail_button">Let's work out!</a>
+                        <button  type="button" href="" class="mail_button">Let's talk!</button>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import '../styles/Header.css'
 export default function Header() {
   return (
     <div className="header container-fluid">
-      <a href="#" className="logo"><img src="/assets/logo.png" /></a> 
+      <a href="/" className="logo"><img src="/assets/logo.png" alt="logo"/></a> 
       <div className="right_header">
         <ul>
           <li className="links"><a href="#me">About</a></li>
