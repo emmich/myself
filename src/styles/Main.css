@@ -388,6 +388,29 @@ hr {
     
     width: 100%;
 }
+.more {
+    clear: both;
+    background-color: transparent;
+    /* border: .6px solid white; */
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 7px 18px;
+    margin-top: 100px;
+    margin: auto;
+    display: block;
+    /* text-align: center; */
+    text-decoration-line: none;
+    color: white;
+    word-spacing: 1.5px;
+    font-size: 15px;
+    font-weight: 300;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.more:hover {
+    box-shadow: inset 200px 0 0 0 #00A3FF;
+    border-radius: 5px;
+    color: white;
+}
 
 
 /*########## Section four ###### */
@@ -532,3 +555,4 @@ hr {
     box-shadow: inset 200px 0 0 0 #00A3FF;
     color: white;
 }
+

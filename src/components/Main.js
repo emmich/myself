@@ -74,6 +74,8 @@ const Main = () => {
                             <Works />
 
                         </div>
+
+                        <button  type="button" href="" class="more">View more</button>
                     </div>
                 </div>
 
