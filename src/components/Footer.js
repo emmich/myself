@@ -22,7 +22,7 @@ const Footer = () => {
                                 <a href="https://github.com/emmich" target='_blank' rel='noreferrer'><img src="/assets/github.png" width= "17px;" height="17px" alt="git" /></a>
                             </li>
                             <li>
-                                <a href="https://behance.net/emmanuelogbona" target='_blank' rel='noreferrer'><img src="/assets/behance.png" width= "25px;" height="25px" alt="behance" /></a>
+                                <a href="https://www.behance.net/emmanuelogbonna" target='_blank' rel='noreferrer'><img src="/assets/behance.png" width= "25px;" height="25px" alt="behance" /></a>
                             </li>
                         </ul>
                     </div>
