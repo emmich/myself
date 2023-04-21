@@ -74,7 +74,7 @@ const Main = () => {
                             <Works />
 
                         </div>
-                        <button  type="button" href="https://wwww.behance.net/emmanuelogbona" class="more mt-5">View more</button>
+                        <a href="https://wwww.behance.net/emmanuelogbona" class="more mt-5">View More</a>
                     </div>
                 </div>
 

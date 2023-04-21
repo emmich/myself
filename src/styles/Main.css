@@ -393,7 +393,8 @@ hr {
     /* border: .6px solid white; */
     border: none;
     border-bottom: 2px solid white;
-    padding: 7px 18px;
+    width: 130px;
+    padding: 7px 25px;
     margin-top: 100px;
     margin: auto;
     display: block;
@@ -401,8 +402,8 @@ hr {
     text-decoration-line: none;
     color: white;
     word-spacing: 1.5px;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 500;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 .more:hover {
