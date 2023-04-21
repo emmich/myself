@@ -16,8 +16,8 @@ const Main = () => {
 
                     <div className="socials">
                         <a href="https://wwww.linkedin.com/in/emmamuel67"><img src="/assets/linkedin.png" width= "20px;" height="20px" alt="Linkedin" /></a>
-                        <a href="https://wwww.linkedin.com/in/emmamuel67"><img src="/assets/github.png" width= "17px;" height="17px" alt="Linkedin" /></a>
-                        <a href="https://wwww.linkedin.com/in/emmamuel67"><img src="/assets/behance.png" width= "25px;" height="25px" alt="Linkedin" /></a>
+                        <a href="https://wwww.github.com/emmich"><img src="/assets/github.png" width= "17px;" height="17px" alt="Github" /></a>
+                        <a href="https://wwww.behance.net/emmanuelogbona"><img src="/assets/behance.png" width= "25px;" height="25px" alt="Behance" /></a>
 
                     </div>
                 </div>
@@ -74,8 +74,7 @@ const Main = () => {
                             <Works />
 
                         </div>
-
-                        <button  type="button" href="" class="more">View more</button>
+                        <button  type="button" href="https://wwww.behance.net/emmanuelogbona" class="more mt-5">View more</button>
                     </div>
                 </div>
 
@@ -121,7 +120,7 @@ const Main = () => {
                     <div className="contact" id="contact">
                         <h1>Let's talk!</h1>
                         <p>I'm never tired to explore, try new projects, collaborate, offer my service, build your brand or just simply listen to you. <i>Just click that button</i></p><br /><br />
-                        <button  type="button" href="" class="mail_button">Let's talk!</button>
+                        <a href="mailto:ugochukwu.ogbona@gmail.com?subject=I Have A Job For You" class="mail_button">Let's talk!</a>
                     </div>
                 </div>
             </div>

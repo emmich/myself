@@ -30,6 +30,15 @@ const Works = () => {
                 
                 </div>
             </div>
+            
+            <div className="project-item"><img src="/assets/work4.png" alt="projects" />
+                <div className="project-content">
+                    <h3 className="title">Portfolio</h3>
+                    <a href="https://www.ellcrys.org/team" className="">Ugoo.pro </a>
+                    <a href="https://www.ellcrys.org/team" className="">Github </a>
+                
+                </div>
+            </div>
 
             <div className="project-item"><img src="/assets/work1.png" alt="projects" />
                 <div className="project-content">
@@ -57,13 +66,6 @@ const Works = () => {
                 </div>
             </div>
 
-            <div className="project-item"><img src="/assets/work6.png" alt="projects" />
-                <div className="project-content">
-                    <h3 className="title">Rexaan Logo</h3>
-                    <a href="https://www.ellcrys.org/team" className="">Logo Design </a>
-                
-                </div>
-            </div>
 
             <div className="project-item"><img src="/assets/work7.png" alt="projects" />
                 <div className="project-content">
@@ -81,11 +83,10 @@ const Works = () => {
                 </div>
             </div>
 
-            <div className="project-item"><img src="/assets/work4.png" alt="projects" />
+            <div className="project-item"><img src="/assets/work6.png" alt="projects" />
                 <div className="project-content">
-                    <h3 className="title">Portfolio</h3>
-                    <a href="https://www.ellcrys.org/team" className="">Ugoo.pro </a>
-                    <a href="https://www.ellcrys.org/team" className="">Github </a>
+                    <h3 className="title">Rexaan Logo</h3>
+                    <a href="https://www.ellcrys.org/team" className="">Logo Design </a>
                 
                 </div>
             </div>

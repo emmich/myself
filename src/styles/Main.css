@@ -370,7 +370,7 @@ hr {
 
 .works {
     height: auto;
-    margin: 50px 10px 50px;
+    margin: 100px 10px 50px;
     padding: 100px 0px 40px;
     /* border: 1px solid white; */
 }
@@ -389,7 +389,6 @@ hr {
     width: 100%;
 }
 .more {
-    clear: both;
     background-color: transparent;
     /* border: .6px solid white; */
     border: none;

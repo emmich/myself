@@ -42,7 +42,7 @@
         padding: 0px;
     }
     .header .right_header .cv {
-        width: 100px;
+        /* width: 100px; */
         margin-left: 1px;
         font-size: 11px;
     }
@@ -115,15 +115,16 @@ li:hover {
 
 
 .right_header .cv {
-    padding: 5px 12px;
-    width: 100px;
+    padding: 4px 12px;
+    /* width: 100px; */
     font-size: 13px;
-    /* background-color: white; */
+    background-color: transparent;
     border-radius: 4px;
     color: #00A3FF;
     font-weight: 400;
     text-decoration-line: none;
     border: 1px solid #00A3FF;
+    text-transform: uppercase;
 
 }
 
@@ -131,6 +132,8 @@ li:hover {
     background-color: white;
     color: #00A3FF;
     border: none;
+    
+    transition: .5s ease-in-out;
 }
 .right_header .cv:hover::before {
     content: "";
