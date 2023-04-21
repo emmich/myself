@@ -30,7 +30,7 @@ const Works = () => {
                 
                 </div>
             </div>
-            
+
             <div className="project-item"><img src="/assets/work4.png" alt="projects" />
                 <div className="project-content">
                     <h3 className="title">Portfolio</h3>
@@ -90,6 +90,7 @@ const Works = () => {
                 
                 </div>
             </div>
+            
 
 
                        

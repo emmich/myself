@@ -16,13 +16,13 @@ const Footer = () => {
                     <div className="col-lg-6 col-md-6 col-sm-12 right_footer">
                         <ul className="socials">
                             <li>
-                                <a href="https://wwww.linkedin.com/in/emmamuel67"><img src="/assets/linkedin.png" width= "20px;" height="20px" alt="Linkedin" /></a>
+                                <a href="https://wwww.linkedin.com/in/emmanuel67" target='_blank' rel='noreferrer'><img src="/assets/linkedin.png" width= "20px;" height="20px" alt="Linkedin" /></a>
                             </li>
                             <li>
-                                <a href="https://wwww.github.com/emmich"><img src="/assets/github.png" width= "17px;" height="17px" alt="git" /></a>
+                                <a href="https://wwww.github.com/emmich" target='_blank' rel='noreferrer'><img src="/assets/github.png" width= "17px;" height="17px" alt="git" /></a>
                             </li>
                             <li>
-                                <a href="https://wwww.behance.net/emmanuelogbona"><img src="/assets/behance.png" width= "25px;" height="25px" alt="behance" /></a>
+                                <a href="https://wwww.behance.net/emmanuelogbona" target='_blank' rel='noreferrer'><img src="/assets/behance.png" width= "25px;" height="25px" alt="behance" /></a>
                             </li>
                         </ul>
                     </div>

@@ -15,9 +15,9 @@ const Main = () => {
                     <a href="#contact" class="more_button">Let's work out!</a>
 
                     <div className="socials">
-                        <a href="https://wwww.linkedin.com/in/emmamuel67"><img src="/assets/linkedin.png" width= "20px;" height="20px" alt="Linkedin" /></a>
-                        <a href="https://wwww.github.com/emmich"><img src="/assets/github.png" width= "17px;" height="17px" alt="Github" /></a>
-                        <a href="https://wwww.behance.net/emmanuelogbona"><img src="/assets/behance.png" width= "25px;" height="25px" alt="Behance" /></a>
+                        <a href="https://wwww.linkedin.com/in/emmanuel67" target='_blank' rel='noreferrer'><img src="/assets/linkedin.png" width= "20px;" height="20px" alt="Linkedin" /></a>
+                        <a href="https://wwww.github.com/emmich" target='_blank' rel='noreferrer'><img src="/assets/github.png" width= "17px;" height="17px" alt="Github" /></a>
+                        <a href="https://wwww.behance.net/emmanuelogbona" target='_blank' rel='noreferrer'><img src="/assets/behance.png" width= "25px;" height="25px" alt="Behance" /></a>
 
                     </div>
                 </div>
@@ -74,7 +74,8 @@ const Main = () => {
                             <Works />
 
                         </div>
-                        <a href="https://wwww.behance.net/emmanuelogbona" class="more mt-5">View More</a>
+                        <a href="https://instagram.com/easywinigeria?igshid=YmMyMTA2M2Y=" class="more_ig mt-5" target='_blank' rel='noreferrer'>View Works on Instagram</a>
+                        <a href="https://wwww.behance.net/emmanuelogbonna" target='_blank' rel='noreferrer' class="more mt-5">View More</a>
                     </div>
                 </div>
 
