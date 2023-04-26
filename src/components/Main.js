@@ -6,7 +6,7 @@ const Main = () => {
         <main>
             <div className="container">
                 <div className="section_one">
-                    <h2>Hello! You are here to hire</h2>
+                    <h2>Hello! &nbsp; I am</h2>
                     <h1 className="animate-character">ugo ogbonna</h1>
                     <p className="subhead mt-3">A digital and tech-focused individual, experienced in <span><i>Frontend Development and Product Designs, </i></span> 
                      building creative web/digital products and designs with accepted user experience concepts. </p>
@@ -121,7 +121,7 @@ const Main = () => {
                     <div className="contact" id="contact">
                         <h1>Let's talk!</h1>
                         <p>I'm never tired to explore, try new projects, collaborate, offer my service, build your brand or just simply listen to you. <i>Just click that button</i></p><br /><br />
-                        <a href="mailto:ugochukwu.ogbona@gmail.com?subject=I Have A Job For You" class="mail_button">Let's talk!</a>
+                        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto:ugochukwu.ogbona@gmail.com?" class="mail_button" target="_blank" rel="noreferrer">Let's talk!</a>
                     </div>
                 </div>
             </div>
