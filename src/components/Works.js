@@ -43,7 +43,7 @@ const Works = () => {
             <div className="project-item"><img src="/assets/work1.png" alt="projects" />
                 <div className="project-content">
                     <h3 className="title">Urban</h3>
-                    <a href="https://www.behance.net/gallery/143660381/URBAN-Bill-Management-mobile-app" className="">UX Case Study</a>
+                    <a href="https://www.behance.net/gallery/143660381/URBAN-Bill-Management-mobile-app" className="" target='_blank' rel='noreferrer'>UX Case Study</a>
                 
                 </div>
             </div>
@@ -51,7 +51,7 @@ const Works = () => {
             <div className="project-item"><img src="/assets/work2.png" alt="projects" />
                 <div className="project-content">
                     <h3 className="title">GRLD</h3>  
-                    <a href="https://www.behance.net/gallery/142818759/GLRD-UX-Case-Study" className="">UX Case Study </a>
+                    <a href="https://www.behance.net/gallery/142818759/GLRD-UX-Case-Study" className="" target='_blank' rel='noreferrer'>UX Case Study </a>
                     {/* <a href="www." */}
                 
                 </div>
@@ -60,7 +60,7 @@ const Works = () => {
             <div className="project-item"><img src="/assets/work5.png" alt="projects" />
                 <div className="project-content">
                     <h3 className="title">Sample</h3>
-                    <a href="https://dribbble.com/shots/17426518-U-Brand-Landing-Page" className="">UI Design </a>
+                    <a href="https://dribbble.com/shots/17426518-U-Brand-Landing-Page" className="" target='_blank' rel='noreferrer'>UI Design </a>
                     {/* <a href="www." */}
                 
                 </div>
@@ -70,7 +70,7 @@ const Works = () => {
             <div className="project-item"><img src="/assets/work7.png" alt="projects" />
                 <div className="project-content">
                     <h3 className="title">Checkout Page</h3>
-                    <a href="https://dribbble.com/shots/17622370-E-commerce-checkout-page-Billing" className="">UI Design </a>
+                    <a href="https://dribbble.com/shots/17622370-E-commerce-checkout-page-Billing" className="" target='_blank' rel='noreferrer'>UI Design </a>
                 
                 </div>
             </div>
@@ -78,7 +78,7 @@ const Works = () => {
             <div className="project-item"><img src="/assets/work3.png" alt="projects" />
                 <div className="project-content">
                     <h3 className="title">Promo Banner</h3>
-                    <a href="https://www.behance.net/gallery/160951449/Promotional-Flyer" className="">Promo Design </a>
+                    <a href="https://www.behance.net/gallery/160951449/Promotional-Flyer" className="" target='_blank' rel='noreferrer'>Promo Design </a>
                 
                 </div>
             </div>
@@ -86,7 +86,7 @@ const Works = () => {
             <div className="project-item"><img src="/assets/work6.png" alt="projects" />
                 <div className="project-content">
                     <h3 className="title">Rexaan Logo</h3>
-                    <a href="https://www.behance.net/gallery/142819187/Rexaan-Logo-Sample" className="">Logo Design </a>
+                    <a href="https://www.behance.net/gallery/142819187/Rexaan-Logo-Sample" className="" target='_blank' rel='noreferrer'>Logo Design </a>
                 
                 </div>
             </div>
