@@ -74,8 +74,10 @@ const Main = () => {
                             <Works />
 
                         </div>
-                        <a href="https://instagram.com/easywinigeria?igshid=YmMyMTA2M2Y=" class="more_ig mt-5" target='_blank' rel='noreferrer'>View Works on Instagram</a>
+
                         <a href="https://www.behance.net/emmanuelogbonna" target='_blank' rel='noreferrer' class="more mt-5">View More</a>
+                        <a href="https://instagram.com/easywinigeria?igshid=YmMyMTA2M2Y=" class="more_ig mt-5" target='_blank' rel='noreferrer'>View Works on Instagram</a>
+                        
                     </div>
                 </div>
 
