@@ -10,7 +10,7 @@ const Main = () => {
                     <h1 className="animate-character">ugo ogbonna</h1>
                     <p className="subhead mt-3">A digital and tech-focused individual, experienced in <span><i>Frontend Development and Product Designs, </i></span> 
                      building creative web/digital products and designs with accepted user experience concepts. </p>
-                    <p className="moresub">I enjoy digging my hands in digital and tech projects, collaborating and getting exposed. I also work remotely as a digital strategist and product designer for a few team and organization</p>
+                    <p className="moresub">I enjoy digging my hands in digital and tech projects, collaborating and getting exposed. I also work remotely as a digital strategist and product designer for a few teams and organization.</p>
                     <br /> <br />
                     <a href="#contact" class="more_button">Let's work out!</a>
 
@@ -29,7 +29,7 @@ const Main = () => {
                         <div className="row">
                             <div className="col-lg-6 about">
                                 <h1>who am i?</h1>
-                                <p>Hey there once again, This is ugo. <img src="/assets/me.png" width= "25px;" height="25px" alt="me" /></p>
+                                <p>Hey there once again, This is Ugo. <img src="/assets/me.png" width= "25px;" height="25px" alt="me" /></p>
                                 <p>I am a Software Developer practicing in frontend engineering. Skilled at bringing ideas into life and web experience interactions. Making use of world-class tools, ideas, inspirations and collaborative minds to produce great user experience.  </p>
                             </div>
                             <div className="col-lg-6"></div>
@@ -39,8 +39,8 @@ const Main = () => {
                             <div className="col-lg-6"></div>
                             <div className="col-lg-6 others">
                                 <h1>more from me</h1>
-                                <p>Together with my frontend engineering skills, I currently deliver sounding user experience product designs in a few organizations settled in Lagos. There, i make research with the team to project company's ideas
-                                    in the digital space, structure and implement methods to create awareness and turn in possible clients. </p>
+                                <p>Together with my frontend engineering skills, I currently deliver sound user experience product designs in a few organizations settled in Lagos. There, I make research with the team to project company's ideas
+                                    in the digital space, as well as structure and implement methods to create awareness and turn in possible clients. </p>
                                 
                             </div>
                             
@@ -48,9 +48,9 @@ const Main = () => {
                         <div className="row and_more">
                             <div className="col-12">
                             <h1>one more thing! <img src="/assets/finger.png" width= "40px;" height="40px" alt="finger" /></h1>
-                            <i>Digital Strategist . Social Media Management . Growth Hacker . Brand Management . Crypto/Finance Enthusiastic</i>
-                              <p>A Digital Experienced individual with skills in all sections of digital marketing to be utilized in any industry, knowledge in tools and extensions to achieve results and boost productivity.
-                                There's nothing more interesting and mind-blowing than seeing new creativity, wanting to grasp knowledge, the urge to be among those collaborators,
+                            <i>Digital Strategist . Social Media Manager . Growth Hacker . Brand Manager . Crypto/Finance Enthusiast</i>
+                              <p>A Digitally Experienced individual with skills in all sections of digital marketing to be utilized in any industry, knowledged in creative tools and extensions to achieve results and boost productivity.
+                                There's nothing more interesting and mind-blowing than seeing new creativity, eager to grasp knowledge with an urge to work along like-minded collaborators,
                                 seeing your work and project solving problems and delivering opportunity to those who needs them.
                                    <br></br><br></br>
                                 <span className="animate-character2">That is how i perceive the world and tech space. I want to grow and challenge. <img src="/assets/ideas.png" width= "25px;" height="25px" alt="idea" />  </span>

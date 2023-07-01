@@ -5,7 +5,7 @@ import '../styles/Header.css'
 export default function Header() {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch('UgoCV.pdf').then(response => {
+    fetch('UgohCV.pdf').then(response => {
         response.blob().then(blob => {
             // Creating new object of PDF file
             const fileURL = window.URL.createObjectURL(blob);
