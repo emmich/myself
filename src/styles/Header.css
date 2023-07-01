@@ -43,7 +43,7 @@
     }
     .header .right_header .cv {
         /* width: 100px; */
-        margin-left: 1px;
+        margin-left: 4px;
         font-size: 11px;
     }
 }
@@ -115,16 +115,16 @@ li:hover {
 
 
 .right_header .cv {
-    padding: 4px 12px;
+    padding: 4px 10px;
     /* width: 100px; */
-    font-size: 13px;
+    font-size: 14px;
     background-color: transparent;
     border-radius: 4px;
     color: #00A3FF;
     font-weight: 400;
     text-decoration-line: none;
     border: 1px solid #00A3FF;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 
 }
 

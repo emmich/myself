@@ -50,7 +50,7 @@ const Main = () => {
                             <h1>one more thing! <img src="/assets/finger.png" width= "40px;" height="40px" alt="finger" /></h1>
                             <i>Digital Strategist . Social Media Manager . Growth Hacker . Brand Manager . Crypto/Finance Enthusiast</i>
                               <p>A Digitally Experienced individual with skills in all sections of digital marketing to be utilized in any industry, knowledged in creative tools and extensions to achieve results and boost productivity.
-                                There's nothing more interesting and mind-blowing than seeing new creativity, eager to grasp knowledge with an urge to work along like-minded collaborators. It is indeed beautiful to watch your works and projects come alive  whilst solving problems and delivering opportunities to those in need of our services.
+                                There's nothing more interesting and mind-blowing than seeing new creativity, eager to grasp knowledge with an urge to work with like-minded collaborators. It is indeed beautiful to watch your works and projects come alive  whilst solving problems and delivering opportunities to those in need of our services.
                                    <br></br><br></br>
                                 <span className="animate-character2">That is how I perceive the world and the tech space. To grow and challenge. <img src="/assets/ideas.png" width= "25px;" height="25px" alt="idea" />  </span>
                              </p>

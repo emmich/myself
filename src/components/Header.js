@@ -24,7 +24,7 @@ export default function Header() {
         <ul>
           <li className="links"><a href="#me">About</a></li>
           <li className="links"><a href="#works">Projects</a></li>
-          <li className="links"><button onClick={onButtonClick} className="cv">my CV</button></li>
+          <li className="links"><button onClick={onButtonClick} className="cv">Resume</button></li>
         </ul>
       </div>
     </div>
