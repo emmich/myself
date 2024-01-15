@@ -8,7 +8,7 @@ const Main = () => {
                 <div className="section_one">
                     <h2>Hello! &nbsp; I am</h2>
                     <h1 className="animate-character">ugo ogbonna</h1>
-                    <p className="subhead mt-3">A digital and tech-focused individual, experienced in <span><i>Frontend Development and Product Designs, </i></span> 
+                    <p className="subhead mt-3">A digital and tech-focused individual, experienced in <span><i>Frontend Development, Digital Marketing and Product Designs, </i></span> 
                      building creative web/digital products and designs with accepted user experience concepts. </p>
                     <p className="moresub">I enjoy digging my hands in digital and tech projects, collaborating and getting exposed. I also work remotely as a digital strategist and product designer for a few teams and organization.</p>
                     <br /> <br />
